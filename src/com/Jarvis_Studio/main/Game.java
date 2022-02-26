@@ -7,6 +7,11 @@ import com.Jarvis_Studio.handler.MouseHandler;
 import com.Jarvis_Studio.window.Render;
 import com.Jarvis_Studio.window.Window;
 
+/**
+ *This is a Game Engine to facilitate the development of games in java...
+ * @see java.lang.Runnable
+ * @author Marcus Flavio
+ */
 
 public class Game implements Runnable{
 

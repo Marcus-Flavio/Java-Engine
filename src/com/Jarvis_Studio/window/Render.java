@@ -16,7 +16,7 @@ public class Render{
     private final int width,height;
     private int scale;
     /**
-     * Render the Game
+     * Render Constructor
      */
     public Render() {
         canvas = Window.getCanvas();
