@@ -37,7 +37,7 @@ public class Window{
         initFrame();
 
 
-    }
+     }
     public void initFrame(){
         canvas.setSize(new Dimension(width*scale,height*scale));
         frame.add(canvas);
@@ -67,8 +67,8 @@ public class Window{
         canvas.addMouseListener(mouseHandler);
     }
     /**
-     *Gets the canvas of the screen
-     * @return a <code>canvas</code>
+     *Get the canvas of the screen
+     * @return <code>canvas</code>
      */
     public static Canvas getCanvas(){
         return canvas;
